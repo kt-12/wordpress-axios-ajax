@@ -1,4 +1,4 @@
-# wordpress-axios-ajax
+# wordpress-axios-ajax WordPress plugin
 
 ## To install 
 
