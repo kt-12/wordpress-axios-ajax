@@ -34,13 +34,12 @@ var vue_el = new Vue({
               // });
 
                   //Using Qs.js to convert the data to be sent in proper format
-                  axios.post(WAS_ajax_obj.ajax_url, Qs.stringify( postData )
-                      ).then(function (response) {
-                        this.nameArray = response.data;
-                                // this.$parent.ajaxloading = false;
-                            }.bind(this))
-                      .catch(function (error) {
-                        console.log(error);
+                  axios.post( WAS_ajax_obj.ajax_url, Qs.stringify( postData ) )
+                      .then( function ( response ) {
+                          this.nameArray = response.data;             
+                      }.bind( this ) )
+                      .catch( function ( error ) {
+                          console.log( error );
                     });
 
 
