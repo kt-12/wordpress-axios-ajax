@@ -1,4 +1,4 @@
-# wordpress-axios-ajax WordPress plugin
+# WordPress Demo plugin to demonstrate - How to make WordPress Ajax calls using Axios.
 
 ## To install 
 
